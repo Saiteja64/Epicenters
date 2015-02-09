@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE0E46C197F53330047B422 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0E46B197F53330047B422 /* Foundation.framework */; };
+		2FE0E46E197F53330047B422 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0E46D197F53330047B422 /* CoreGraphics.framework */; };
+		2FE0E470197F53330047B422 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0E46F197F53330047B422 /* UIKit.framework */; };
+		2FE0E476197F53330047B422 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0E474197F53330047B422 /* InfoPlist.strings */; };
+		2FE0E478197F53330047B422 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0E477197F53330047B422 /* main.m */; };
+		2FE0E47C197F53330047B422 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0E47B197F53330047B422 /* AppDelegate.m */; };
+		2FE0E47F197F53330047B422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0E47D197F53330047B422 /* Main.storyboard */; };
+		2FE0E482197F53330047B422 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0E481197F53330047B422 /* ViewController.m */; };
+		2FE0E484197F53330047B422 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0E483197F53330047B422 /* Images.xcassets */; };
+		2FE0E48B197F53330047B422 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0E48A197F53330047B422 /* XCTest.framework */; };
+		2FE0E48C197F53330047B422 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0E46B197F53330047B422 /* Foundation.framework */; };
+		2FE0E48D197F53330047B422 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0E46F197F53330047B422 /* UIKit.framework */; };
+		2FE0E495197F53330047B422 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0E493197F53330047B422 /* InfoPlist.strings */; };
+		2FE0E497197F53330047B422 /* EpicentersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0E496197F53330047B422 /* EpicentersTests.m */; };
+		2FE0E4A1197F540A0047B422 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0E4A0197F540A0047B422 /* MapKit.framework */; };
+		2FE0E4A4197F66DF0047B422 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0E4A3197F66DF0047B422 /* MapPin.m */; };
+		2FE0E4A7197F71D10047B422 /* Earthquake.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0E4A6197F71D10047B422 /* Earthquake.m */; };
+		2FE0E4C7197F992C0047B422 /* bluepie.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0E4C6197F992C0047B422 /* bluepie.png */; };
+		2FE0E4C9197F99300047B422 /* bluepop.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0E4C8197F99300047B422 /* bluepop.png */; };
+		2FE0E4CB197F99350047B422 /* bluepop.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0E4CA197F99350047B422 /* bluepop.png */; };
+		2FE0E4CD197F993A0047B422 /* cyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0E4CC197F993A0047B422 /* cyan.png */; };
+		2FE0E4CF197F99400047B422 /* grn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0E4CE197F99400047B422 /* grn.png */; };
+		2FE0E4D3197F995D0047B422 /* read.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0E4D2197F995D0047B422 /* read.png */; };
+		2FE0E4D5197F99600047B422 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0E4D4197F99600047B422 /* yellow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FE0E48E197F53330047B422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FE0E460197F53330047B422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FE0E467197F53330047B422;
+			remoteInfo = Epicenters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FE0E468197F53330047B422 /* Epicenters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Epicenters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE0E46B197F53330047B422 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FE0E46D197F53330047B422 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FE0E46F197F53330047B422 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FE0E473197F53330047B422 /* Epicenters-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Epicenters-Info.plist"; sourceTree = "<group>"; };
+		2FE0E475197F53330047B422 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FE0E477197F53330047B422 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FE0E479197F53330047B422 /* Epicenters-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Epicenters-Prefix.pch"; sourceTree = "<group>"; };
+		2FE0E47A197F53330047B422 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FE0E47B197F53330047B422 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FE0E47E197F53330047B422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FE0E480197F53330047B422 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FE0E481197F53330047B422 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FE0E483197F53330047B422 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FE0E489197F53330047B422 /* EpicentersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpicentersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE0E48A197F53330047B422 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2FE0E492197F53330047B422 /* EpicentersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EpicentersTests-Info.plist"; sourceTree = "<group>"; };
+		2FE0E494197F53330047B422 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FE0E496197F53330047B422 /* EpicentersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpicentersTests.m; sourceTree = "<group>"; };
+		2FE0E4A0197F540A0047B422 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2FE0E4A2197F66DF0047B422 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		2FE0E4A3197F66DF0047B422 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		2FE0E4A5197F71D10047B422 /* Earthquake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Earthquake.h; path = ../Earthquake.h; sourceTree = "<group>"; };
+		2FE0E4A6197F71D10047B422 /* Earthquake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Earthquake.m; path = ../Earthquake.m; sourceTree = "<group>"; };
+		2FE0E4C6197F992C0047B422 /* bluepie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluepie.png; sourceTree = "<group>"; };
+		2FE0E4C8197F99300047B422 /* bluepop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluepop.png; sourceTree = "<group>"; };
+		2FE0E4CA197F99350047B422 /* bluepop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluepop.png; sourceTree = "<group>"; };
+		2FE0E4CC197F993A0047B422 /* cyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cyan.png; sourceTree = "<group>"; };
+		2FE0E4CE197F99400047B422 /* grn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grn.png; sourceTree = "<group>"; };
+		2FE0E4D2197F995D0047B422 /* read.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = read.png; sourceTree = "<group>"; };
+		2FE0E4D4197F99600047B422 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FE0E465197F53330047B422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE0E4A1197F540A0047B422 /* MapKit.framework in Frameworks */,
+				2FE0E46E197F53330047B422 /* CoreGraphics.framework in Frameworks */,
+				2FE0E470197F53330047B422 /* UIKit.framework in Frameworks */,
+				2FE0E46C197F53330047B422 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE0E486197F53330047B422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE0E48B197F53330047B422 /* XCTest.framework in Frameworks */,
+				2FE0E48D197F53330047B422 /* UIKit.framework in Frameworks */,
+				2FE0E48C197F53330047B422 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FE0E45F197F53330047B422 = {
+			isa = PBXGroup;
+			children = (
+				2FE0E471197F53330047B422 /* Epicenters */,
+				2FE0E490197F53330047B422 /* EpicentersTests */,
+				2FE0E46A197F53330047B422 /* Frameworks */,
+				2FE0E469197F53330047B422 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FE0E469197F53330047B422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0E468197F53330047B422 /* Epicenters.app */,
+				2FE0E489197F53330047B422 /* EpicentersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FE0E46A197F53330047B422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0E4A0197F540A0047B422 /* MapKit.framework */,
+				2FE0E46B197F53330047B422 /* Foundation.framework */,
+				2FE0E46D197F53330047B422 /* CoreGraphics.framework */,
+				2FE0E46F197F53330047B422 /* UIKit.framework */,
+				2FE0E48A197F53330047B422 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FE0E471197F53330047B422 /* Epicenters */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0E4A5197F71D10047B422 /* Earthquake.h */,
+				2FE0E4A6197F71D10047B422 /* Earthquake.m */,
+				2FE0E4A2197F66DF0047B422 /* MapPin.h */,
+				2FE0E4A3197F66DF0047B422 /* MapPin.m */,
+				2FE0E47A197F53330047B422 /* AppDelegate.h */,
+				2FE0E47B197F53330047B422 /* AppDelegate.m */,
+				2FE0E47D197F53330047B422 /* Main.storyboard */,
+				2FE0E480197F53330047B422 /* ViewController.h */,
+				2FE0E481197F53330047B422 /* ViewController.m */,
+				2FE0E483197F53330047B422 /* Images.xcassets */,
+				2FE0E472197F53330047B422 /* Supporting Files */,
+			);
+			path = Epicenters;
+			sourceTree = "<group>";
+		};
+		2FE0E472197F53330047B422 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0E4CE197F99400047B422 /* grn.png */,
+				2FE0E4CC197F993A0047B422 /* cyan.png */,
+				2FE0E4CA197F99350047B422 /* bluepop.png */,
+				2FE0E4D2197F995D0047B422 /* read.png */,
+				2FE0E4D4197F99600047B422 /* yellow.png */,
+				2FE0E4C8197F99300047B422 /* bluepop.png */,
+				2FE0E4C6197F992C0047B422 /* bluepie.png */,
+				2FE0E473197F53330047B422 /* Epicenters-Info.plist */,
+				2FE0E474197F53330047B422 /* InfoPlist.strings */,
+				2FE0E477197F53330047B422 /* main.m */,
+				2FE0E479197F53330047B422 /* Epicenters-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FE0E490197F53330047B422 /* EpicentersTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0E496197F53330047B422 /* EpicentersTests.m */,
+				2FE0E491197F53330047B422 /* Supporting Files */,
+			);
+			path = EpicentersTests;
+			sourceTree = "<group>";
+		};
+		2FE0E491197F53330047B422 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0E492197F53330047B422 /* EpicentersTests-Info.plist */,
+				2FE0E493197F53330047B422 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FE0E467197F53330047B422 /* Epicenters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE0E49A197F53330047B422 /* Build configuration list for PBXNativeTarget "Epicenters" */;
+			buildPhases = (
+				2FE0E464197F53330047B422 /* Sources */,
+				2FE0E465197F53330047B422 /* Frameworks */,
+				2FE0E466197F53330047B422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Epicenters;
+			productName = Epicenters;
+			productReference = 2FE0E468197F53330047B422 /* Epicenters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FE0E488197F53330047B422 /* EpicentersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE0E49D197F53330047B422 /* Build configuration list for PBXNativeTarget "EpicentersTests" */;
+			buildPhases = (
+				2FE0E485197F53330047B422 /* Sources */,
+				2FE0E486197F53330047B422 /* Frameworks */,
+				2FE0E487197F53330047B422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FE0E48F197F53330047B422 /* PBXTargetDependency */,
+			);
+			name = EpicentersTests;
+			productName = EpicentersTests;
+			productReference = 2FE0E489197F53330047B422 /* EpicentersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FE0E460197F53330047B422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = edu.foothill;
+				TargetAttributes = {
+					2FE0E488197F53330047B422 = {
+						TestTargetID = 2FE0E467197F53330047B422;
+					};
+				};
+			};
+			buildConfigurationList = 2FE0E463197F53330047B422 /* Build configuration list for PBXProject "Epicenters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FE0E45F197F53330047B422;
+			productRefGroup = 2FE0E469197F53330047B422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FE0E467197F53330047B422 /* Epicenters */,
+				2FE0E488197F53330047B422 /* EpicentersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FE0E466197F53330047B422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE0E4C7197F992C0047B422 /* bluepie.png in Resources */,
+				2FE0E4D3197F995D0047B422 /* read.png in Resources */,
+				2FE0E4CF197F99400047B422 /* grn.png in Resources */,
+				2FE0E4C9197F99300047B422 /* bluepop.png in Resources */,
+				2FE0E484197F53330047B422 /* Images.xcassets in Resources */,
+				2FE0E476197F53330047B422 /* InfoPlist.strings in Resources */,
+				2FE0E47F197F53330047B422 /* Main.storyboard in Resources */,
+				2FE0E4CB197F99350047B422 /* bluepop.png in Resources */,
+				2FE0E4CD197F993A0047B422 /* cyan.png in Resources */,
+				2FE0E4D5197F99600047B422 /* yellow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE0E487197F53330047B422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE0E495197F53330047B422 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FE0E464197F53330047B422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE0E4A4197F66DF0047B422 /* MapPin.m in Sources */,
+				2FE0E482197F53330047B422 /* ViewController.m in Sources */,
+				2FE0E47C197F53330047B422 /* AppDelegate.m in Sources */,
+				2FE0E478197F53330047B422 /* main.m in Sources */,
+				2FE0E4A7197F71D10047B422 /* Earthquake.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE0E485197F53330047B422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE0E497197F53330047B422 /* EpicentersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FE0E48F197F53330047B422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FE0E467197F53330047B422 /* Epicenters */;
+			targetProxy = 2FE0E48E197F53330047B422 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FE0E474197F53330047B422 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE0E475197F53330047B422 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FE0E47D197F53330047B422 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE0E47E197F53330047B422 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FE0E493197F53330047B422 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FE0E494197F53330047B422 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FE0E498197F53330047B422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FE0E499197F53330047B422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FE0E49B197F53330047B422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Epicenters/Epicenters-Prefix.pch";
+				INFOPLIST_FILE = "Epicenters/Epicenters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FE0E49C197F53330047B422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Epicenters/Epicenters-Prefix.pch";
+				INFOPLIST_FILE = "Epicenters/Epicenters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2FE0E49E197F53330047B422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Epicenters.app/Epicenters";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Epicenters/Epicenters-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EpicentersTests/EpicentersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2FE0E49F197F53330047B422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Epicenters.app/Epicenters";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Epicenters/Epicenters-Prefix.pch";
+				INFOPLIST_FILE = "EpicentersTests/EpicentersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FE0E463197F53330047B422 /* Build configuration list for PBXProject "Epicenters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE0E498197F53330047B422 /* Debug */,
+				2FE0E499197F53330047B422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE0E49A197F53330047B422 /* Build configuration list for PBXNativeTarget "Epicenters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE0E49B197F53330047B422 /* Debug */,
+				2FE0E49C197F53330047B422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FE0E49D197F53330047B422 /* Build configuration list for PBXNativeTarget "EpicentersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE0E49E197F53330047B422 /* Debug */,
+				2FE0E49F197F53330047B422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FE0E460197F53330047B422 /* Project object */;
+}
